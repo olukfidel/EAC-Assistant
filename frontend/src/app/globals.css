@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  /* Official EAC Flag & Brand Colors */
+  --eac-green: #008C00;   /* Primary Green */
+  --eac-blue: #0066CC;    /* Lake Victoria Blue */
+  --eac-yellow: #FFD700;  /* Standard Yellow */
+  --eac-red: #D21034;     /* Strip Red */
+  --eac-black: #000000;
+  --eac-light-bg: #F3F8F3; /* Very light green tint for backgrounds */
+}
+
 body {
-  background-color: #f9fafb; /* gray-50 */
+  background-color: var(--eac-light-bg);
+  color: #333;
 }
